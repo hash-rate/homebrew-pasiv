@@ -2,14 +2,14 @@ cask "pasiv" do
   version "0.4.8"
   sha256 "bd456d3579d0773f1913248cf32288bc9eb3fa8089d51d2a70da0f7ae30d6f47"
 
-  url "https://github.com/simoncrean/pasiv-releases/releases/download/v#{version}/Pasiv_#{version}_aarch64.dmg",
-      verified: "github.com/simoncrean/pasiv-releases/"
+  url "https://github.com/hash-rate/pasiv-releases/releases/download/v#{version}/Pasiv_#{version}_aarch64.dmg",
+      verified: "github.com/hash-rate/pasiv-releases/"
   name "Pasiv"
   desc "One-button non-custodial miner that turns idle CPU/GPU time into crypto"
   homepage "https://pasiv.network/"
 
   livecheck do
-    url "https://github.com/simoncrean/pasiv-releases/releases/latest/download/latest.json"
+    url "https://github.com/hash-rate/pasiv-releases/releases/latest/download/latest.json"
     strategy :json do |json|
       json["version"]
     end
