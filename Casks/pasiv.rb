@@ -17,7 +17,7 @@ cask "pasiv" do
 
   auto_updates true          # the app ships a signed auto-updater
   depends_on arch: :arm64    # Apple Silicon only (VerusHash is AES-accelerated)
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Pasiv.app"
 
