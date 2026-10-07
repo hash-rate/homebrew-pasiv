@@ -1,6 +1,6 @@
 cask "pasiv" do
-  version "0.6.5"
-  sha256 "b0b2720179ffb1003b40a7222a93c9ffaf2e2bde23683e2e324fa63df8c5f358"
+  version "0.6.6"
+  sha256 "fd193907eafd5427034900f04c8058e319b44345b8ec594ae12b01a74314b4a1"
 
   url "https://github.com/hash-rate/pasiv-releases/releases/download/v#{version}/Pasiv_#{version}_aarch64.dmg",
       verified: "github.com/hash-rate/pasiv-releases/"
